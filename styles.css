@@ -58,3 +58,8 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+.sign-up-section a {
+    color: green;
+    text-decoration: none;
+}
