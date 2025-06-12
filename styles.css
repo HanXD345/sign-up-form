@@ -1,5 +1,11 @@
-body {
+@font-face {
+    font-family: "Norse-Bold";
+    src: url('static/Norse-Bold.otf');
+}
+
+body, a {
     margin: 0px;
+    color: white;
 }
 
 main {
@@ -8,6 +14,7 @@ main {
 }
 
 .website-info-section {
+    position: relative;
     background: url('static/website-info-section-bg.avif');
     background-size: cover;
     flex: 1;
@@ -15,4 +22,32 @@ main {
 
 .sign-up-section {
     flex: 2;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Norse-Bold", sans-serif;
+    font-size: 60px;
+}
+
+.logo img {
+    display: inline;
+    height: 2em;
+    width: 2em;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    right: 15%;
+    text-align: center;
+    font-size: 0.75em;
+    padding-bottom: 5px;
 }
