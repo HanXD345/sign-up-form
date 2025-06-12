@@ -51,3 +51,10 @@ main {
     font-size: 0.75em;
     padding-bottom: 5px;
 }
+
+.sign-up-section {
+    color: black;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
