@@ -1,0 +1,18 @@
+body {
+    margin: 0px;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+.website-info-section {
+    background: url('static/website-info-section-bg.avif');
+    background-size: cover;
+    flex: 1;
+}
+
+.sign-up-section {
+    flex: 2;
+}
